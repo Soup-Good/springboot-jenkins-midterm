@@ -26,7 +26,7 @@ pipeline {
 
 	    stage ('Build and Package') { 
 		steps { 
-		    sh 'mvn clean apckage -DskipTests'
+		    sh 'mvn clean package -DskipTests'
 		} 
 	    }
 

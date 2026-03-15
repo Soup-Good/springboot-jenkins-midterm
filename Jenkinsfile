@@ -2,7 +2,7 @@ pipeline {
 	agent any 
 
 	options { 
-	    skipsStagesAfterUnstable()
+	    skipStagesAfterUnstable()
 	}
 
 	tools { 
